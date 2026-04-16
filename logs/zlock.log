@@ -1,0 +1,34 @@
+[2026-04-16 18:44:15,228] INFO logging to C:\Users\Joon\labscript-suite\logs\zlock.log
+[2026-04-16 18:44:15,228] INFO This is zlock server, running on tcp://*:7339
+[2026-04-16 18:44:15,537] INFO [127.0.0.1] said hello
+[2026-04-16 18:44:15,538] INFO [127.0.0.1] requested the protocol version
+[2026-04-16 18:44:15,547] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:12972:MainThread acquired (r/w) Z:\Experiments\imaq_lab\connection_table.h5
+[2026-04-16 18:44:15,553] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:12972:MainThread released Z:\Experiments\imaq_lab\connection_table.h5
+[2026-04-16 18:44:16,187] INFO [127.0.0.1] said hello
+[2026-04-16 18:44:16,187] INFO [127.0.0.1] requested the protocol version
+[2026-04-16 18:44:18,637] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:runmanager.batch_compiler-33408:MainThread acquired (r) Z:\Experiments\imaq_lab\connection_table.h5
+[2026-04-16 18:44:18,639] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:runmanager.batch_compiler-33408:MainThread released Z:\Experiments\imaq_lab\connection_table.h5
+[2026-04-16 18:44:18,640] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:runmanager.batch_compiler-33408:MainThread acquired (r) Z:\Experiments\imaq_lab\connection_table.h5
+[2026-04-16 18:44:18,641] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:runmanager.batch_compiler-33408:MainThread released Z:\Experiments\imaq_lab\connection_table.h5
+[2026-04-16 18:44:18,959] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:runmanager.batch_compiler-33408:MainThread acquired (r/w) Z:\Experiments\imaq_lab\connection_table.h5
+[2026-04-16 18:44:18,982] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:runmanager.batch_compiler-33408:MainThread released Z:\Experiments\imaq_lab\connection_table.h5
+[2026-04-16 18:46:15,931] INFO [127.0.0.1] said hello
+[2026-04-16 18:46:15,932] INFO [127.0.0.1] requested the protocol version
+[2026-04-16 18:46:17,165] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:BLACS-16600:MainThread acquired (r) Z:\Experiments\imaq_lab\connection_table.h5
+[2026-04-16 18:46:17,170] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:BLACS-16600:MainThread released Z:\Experiments\imaq_lab\connection_table.h5
+[2026-04-16 18:46:17,230] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:BLACS-16600:MainThread acquired (r/w) Z:\Users\Joon\labscript-suite\app_saved_configs\imaq_lab\blacs\IMAQ-Lab-Laptop-A_BLACS.h5
+[2026-04-16 18:46:17,235] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:BLACS-16600:MainThread released Z:\Users\Joon\labscript-suite\app_saved_configs\imaq_lab\blacs\IMAQ-Lab-Laptop-A_BLACS.h5
+[2026-04-16 18:46:17,235] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:BLACS-16600:MainThread acquired (r) Z:\Users\Joon\labscript-suite\app_saved_configs\imaq_lab\blacs\IMAQ-Lab-Laptop-A_BLACS.h5
+[2026-04-16 18:46:17,237] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:BLACS-16600:MainThread released Z:\Users\Joon\labscript-suite\app_saved_configs\imaq_lab\blacs\IMAQ-Lab-Laptop-A_BLACS.h5
+[2026-04-16 18:46:18,834] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:BLACS-16600:MainThread acquired (r/w) Z:\Users\Joon\labscript-suite\app_saved_configs\imaq_lab\blacs\IMAQ-Lab-Laptop-A_BLACS.h5
+[2026-04-16 18:46:18,876] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:BLACS-16600:MainThread released Z:\Users\Joon\labscript-suite\app_saved_configs\imaq_lab\blacs\IMAQ-Lab-Laptop-A_BLACS.h5
+[2026-04-16 18:46:18,877] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:BLACS-16600:MainThread acquired (r/w) Z:\Users\Joon\labscript-suite\app_saved_configs\imaq_lab\blacs\IMAQ-Lab-Laptop-A_BLACS.h5
+[2026-04-16 18:46:18,880] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:BLACS-16600:MainThread released Z:\Users\Joon\labscript-suite\app_saved_configs\imaq_lab\blacs\IMAQ-Lab-Laptop-A_BLACS.h5
+[2026-04-16 18:46:18,880] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:BLACS-16600:MainThread acquired (r/w) Z:\Users\Joon\labscript-suite\app_saved_configs\imaq_lab\blacs\IMAQ-Lab-Laptop-A_BLACS.h5
+[2026-04-16 18:46:18,883] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:BLACS-16600:MainThread released Z:\Users\Joon\labscript-suite\app_saved_configs\imaq_lab\blacs\IMAQ-Lab-Laptop-A_BLACS.h5
+[2026-04-16 18:46:19,457] INFO [127.0.0.1] said hello
+[2026-04-16 18:46:19,457] INFO [127.0.0.1] requested the protocol version
+[2026-04-16 18:46:19,537] INFO [127.0.0.1] said hello
+[2026-04-16 18:46:19,537] INFO [127.0.0.1] requested the protocol version
+[2026-04-16 18:46:23,942] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:BLACS-16600:MainThread acquired (r/w) Z:\Users\Joon\labscript-suite\app_saved_configs\imaq_lab\blacs\IMAQ-Lab-Laptop-A_BLACS.h5
+[2026-04-16 18:46:23,946] INFO [127.0.0.1] IMAQ-Lab-Laptop-A:BLACS-16600:MainThread released Z:\Users\Joon\labscript-suite\app_saved_configs\imaq_lab\blacs\IMAQ-Lab-Laptop-A_BLACS.h5

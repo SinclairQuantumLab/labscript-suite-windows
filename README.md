@@ -1,33 +1,43 @@
 # Quick Labscript installation in Windows with `uv`
 
 1. Make sure to back up and remove all the files bekow from the previous installation:
-   - Root folder at `C:\Labscript-windows`
-   - Labscript profile folder at `%USERPROFILE%\labscript-suite\`
+   - Labscript suite & profile folder: `%USERPROFILE%\Labscript-suite`
+   - `Experiment` folder
    - Shortcut files in `%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs`:
       - `BLACS - the labscript suite.lnk`
       - `lyse - the labscript suite.lnk`
       - `runmanager - the labscript suite.lnk`
       - `runviewer - the labscript suite.lnk`
 
-3. Install [`uv`](https://docs.astral.sh/uv/) following [this link](https://docs.astral.sh/uv/getting-started/installation/) and close the `powershell` for the installation.
+2. Install [`uv`](https://docs.astral.sh/uv/) following [this link](https://docs.astral.sh/uv/getting-started/installation/) and close the `powershell` for the installation.
 
-4. Open `powershell` and `git clone` this repo in `C:\`. `C:\Labscript-windows\` folder will be downloaded.
-
-   ```powershell
-   cd C:\
-   git clone https://github.com/SinclairQuantumLab/Labscript-windows.git
-    ```
-
-5. Go to the repo folder and run `uv sync`:
+3. Open Powershell terminal and go to `$HOME` (the Powershell version of `%USERPROFILE%`). Then, `git clone` this repo:
 
     ```powershell
-    cd C:\Labscript-windows
+    cd $HOME
+    git clone https://github.com/SinclairQuantumLab/Labscript-windows.git
+    ```
+
+    `labscript-suite-windows` folder should have been created.
+
+
+4.  Go to the created folder and run `uv sync`:
+
+    ```powershell
+    cd labscript-suite-windows
     uv sync
     ```
-    
     This will install `labscript-suite` and required packages.
 
-6. Run the below to create Labscript profile:
+5. **(IMPORTANT) RENAME THE `labscript-suite-windows` FOLDER TO `labscript-suite`!!!**
+    ```powershell
+    cd ..\
+    mv labscript-suite-windows labscript-suite
+    cd labscript-suite
+    ```
+    > **NOTE**: We cannot take this step before running `uv sync` because of a limitation in `uv`: it cannot install the package that has the same name to the project folder. 
+
+6. Run the below to create Labscript profile names as `imaq_lab`:
 
     ```powershell
     uv run labscript-profile-create -n imaq_lab -c

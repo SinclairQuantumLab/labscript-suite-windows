@@ -1,0 +1,155 @@
+2026-04-16 18:46:17,043 INFO BLACS: Python version 3.13.12 (main, Feb 12 2026, 00:38:53) [MSC v.1944 64 bit (AMD64)]
+2026-04-16 18:46:17,044 INFO BLACS: Platform: win32
+2026-04-16 18:46:17,044 INFO BLACS: windows version: sys.getwindowsversion(major=10, minor=0, build=26100, platform=2, service_pack='')
+2026-04-16 18:46:17,045 INFO BLACS: PyZMQ version: 27.1.0
+2026-04-16 18:46:17,045 INFO BLACS: ZMQ version: 4.3.5
+2026-04-16 18:46:17,045 INFO BLACS: h5py version: Summary of the h5py configuration
+---------------------------------
+
+h5py    3.16.0
+HDF5    2.0.0
+Python  3.13.12 (main, Feb 12 2026, 00:38:53) [MSC v.1944 64 bit (AMD64)]
+sys.platform    win32
+sys.maxsize     9223372036854775807
+numpy   2.4.3
+cython (built with) 3.2.4
+numpy (built against) 2.4.2
+HDF5 (built against) 2.0.0
+
+2026-04-16 18:46:17,045 INFO BLACS: Qt enviroment: PyQt5
+2026-04-16 18:46:17,045 INFO BLACS: PySide/PyQt version: 5.15.11
+2026-04-16 18:46:17,045 INFO BLACS: Qt version: 5.15.2
+2026-04-16 18:46:17,046 INFO BLACS: qtutils version: 4.1.3
+2026-04-16 18:46:17,046 INFO BLACS: zprocess version: 2.27.1
+2026-04-16 18:46:17,046 INFO BLACS: labscript_utils version: 3.4.3
+2026-04-16 18:46:17,046 INFO BLACS: BLACS version: 3.2.3
+2026-04-16 18:46:17,164 INFO BLACS: About to load connection table: C:\Experiments\imaq_lab\connection_table.h5
+2026-04-16 18:46:17,165 DEBUG BLACS.ConnectionTable: Parsing connection table from C:\Experiments\imaq_lab\connection_table.h5
+2026-04-16 18:46:17,170 INFO BLACS: connection table loaded
+2026-04-16 18:46:17,172 INFO BLACS: QApplication instantiated
+2026-04-16 18:46:17,173 INFO BLACS: Loading BLACS ui
+2026-04-16 18:46:17,226 INFO BLACS: BLACS ui loaded
+2026-04-16 18:46:17,230 INFO BLACS: finding connected devices in connection table
+2026-04-16 18:46:17,230 INFO BLACS: Loading front panel settings
+2026-04-16 18:46:17,236 INFO BLACS.FrontPanelSettings: Front panel settings connection table not found!
+2026-04-16 18:46:17,237 INFO BLACS: restoring window data
+2026-04-16 18:46:17,237 ERROR BLACS: Unable to load window and notebook defaults. Exception:'window_xpos'
+Traceback (most recent call last):
+  File "C:\Users\Joon\labscript-suite\.venv\Lib\site-packages\blacs\__main__.py", line 468, in restore_window
+    tab_data['BLACS settings']["window_xpos"]
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: 'window_xpos'
+2026-04-16 18:46:17,239 INFO BLACS: Creating tab widgets
+2026-04-16 18:46:17,242 INFO BLACS: Instantiating devices
+2026-04-16 18:46:17,242 INFO BLACS: instantiating intermediate_device
+2026-04-16 18:46:18,283 DEBUG BLACS.intermediate_device: Started
+2026-04-16 18:46:18,345 DEBUG BLACS.intermediate_device.mainloop: Starting
+2026-04-16 18:46:18,355 DEBUG BLACS.intermediate_device.mainloop: Waiting for next event
+2026-04-16 18:46:18,354 INFO BLACS: instantiating pseudoclock
+2026-04-16 18:46:18,443 DEBUG BLACS.pseudoclock: Started
+2026-04-16 18:46:18,471 DEBUG BLACS.pseudoclock.mainloop: Starting
+2026-04-16 18:46:18,549 DEBUG BLACS.pseudoclock.mainloop: Waiting for next event
+2026-04-16 18:46:18,549 INFO BLACS: Instantiating plugins
+2026-04-16 18:46:18,549 INFO BLACS: creating plugin tabs
+2026-04-16 18:46:18,549 INFO BLACS: reordering tabs
+2026-04-16 18:46:18,551 DEBUG BLACS.intermediate_device.mainloop: Processing event _initialise_worker
+2026-04-16 18:46:18,554 DEBUG BLACS.pseudoclock.mainloop: Processing event _initialise_worker
+2026-04-16 18:46:18,607 INFO BLACS: starting analysis submission thread
+2026-04-16 18:46:18,618 DEBUG BLACS.intermediate_device.mainloop: Instructing worker main_worker to do job init
+2026-04-16 18:46:18,618 INFO BLACS: starting queue manager thread
+2026-04-16 18:46:18,626 INFO BLACS.queue_manager.thread: starting
+2026-04-16 18:46:18,638 INFO BLACS: setting up notification system
+2026-04-16 18:46:18,661 DEBUG BLACS.pseudoclock.mainloop: Instructing worker main_worker to do job init
+2026-04-16 18:46:18,782 INFO BLACS.AnalysisSubmission.mainloop: Processed signal: check/retry
+2026-04-16 18:46:18,833 INFO BLACS: setting up preferences system
+2026-04-16 18:46:18,884 INFO BLACS.plugin.connection_table: Using hashable_types: ['.py', '.txt', '.ini', '.json']; polling_interval: 1.0
+2026-04-16 18:46:18,903 INFO BLACS: hiding easter eggs
+2026-04-16 18:46:18,906 INFO BLACS: showing UI
+2026-04-16 18:46:18,924 INFO BLACS: BLACS instantiated
+2026-04-16 18:46:19,632 DEBUG BLACS.pseudoclock.mainloop: Waiting for worker to acknowledge job request
+2026-04-16 18:46:19,665 DEBUG BLACS.pseudoclock_main_worker.worker: Starting
+2026-04-16 18:46:19,679 DEBUG BLACS.pseudoclock_main_worker.worker: Waiting for next job request
+2026-04-16 18:46:19,679 DEBUG BLACS.pseudoclock_main_worker.worker: Got job request init
+2026-04-16 18:46:19,680 DEBUG BLACS.pseudoclock_main_worker.worker: Starting job init
+2026-04-16 18:46:19,680 DEBUG BLACS.pseudoclock_main_worker.worker: Job complete
+2026-04-16 18:46:19,680 DEBUG BLACS.pseudoclock_main_worker.worker: Waiting for next job request
+2026-04-16 18:46:19,680 DEBUG BLACS.pseudoclock.mainloop: Worker reported job started, waiting for completion
+2026-04-16 18:46:19,680 DEBUG BLACS.pseudoclock.mainloop: Job completed
+2026-04-16 18:46:19,681 DEBUG BLACS.pseudoclock.mainloop: returning worker results to function _initialise_worker
+2026-04-16 18:46:19,682 DEBUG BLACS.pseudoclock.mainloop: Finalising function
+2026-04-16 18:46:19,684 DEBUG BLACS.pseudoclock.mainloop: Waiting for next event
+2026-04-16 18:46:19,686 DEBUG BLACS.pseudoclock.mainloop: Processing event _program_device
+2026-04-16 18:46:19,688 DEBUG BLACS.pseudoclock.mainloop: Instructing worker main_worker to do job program_manual
+2026-04-16 18:46:19,688 DEBUG BLACS.pseudoclock_main_worker.worker: Got job request program_manual
+2026-04-16 18:46:19,689 DEBUG BLACS.pseudoclock_main_worker.worker: Starting job program_manual
+2026-04-16 18:46:19,689 DEBUG BLACS.pseudoclock_main_worker.worker: Job complete
+2026-04-16 18:46:19,689 DEBUG BLACS.pseudoclock_main_worker.worker: Waiting for next job request
+2026-04-16 18:46:19,689 DEBUG BLACS.pseudoclock.mainloop: Waiting for worker to acknowledge job request
+2026-04-16 18:46:19,690 DEBUG BLACS.pseudoclock.mainloop: Worker reported job started, waiting for completion
+2026-04-16 18:46:19,690 DEBUG BLACS.pseudoclock.mainloop: Job completed
+2026-04-16 18:46:19,690 DEBUG BLACS.pseudoclock.mainloop: returning worker results to function _program_device
+2026-04-16 18:46:19,691 DEBUG BLACS.pseudoclock.mainloop: Finalising function
+2026-04-16 18:46:19,692 DEBUG BLACS.pseudoclock.mainloop: Waiting for next event
+2026-04-16 18:46:20,193 DEBUG BLACS.intermediate_device_main_worker.worker: Starting
+2026-04-16 18:46:20,193 DEBUG BLACS.intermediate_device_main_worker.worker: Waiting for next job request
+2026-04-16 18:46:20,194 DEBUG BLACS.intermediate_device_main_worker.worker: Got job request init
+2026-04-16 18:46:20,194 DEBUG BLACS.intermediate_device_main_worker.worker: Starting job init
+2026-04-16 18:46:20,194 DEBUG BLACS.intermediate_device_main_worker.worker: Job complete
+2026-04-16 18:46:20,194 DEBUG BLACS.intermediate_device_main_worker.worker: Waiting for next job request
+2026-04-16 18:46:20,195 DEBUG BLACS.intermediate_device.mainloop: Waiting for worker to acknowledge job request
+2026-04-16 18:46:20,208 DEBUG BLACS.intermediate_device.mainloop: Worker reported job started, waiting for completion
+2026-04-16 18:46:20,209 DEBUG BLACS.intermediate_device.mainloop: Job completed
+2026-04-16 18:46:20,210 DEBUG BLACS.intermediate_device.mainloop: returning worker results to function _initialise_worker
+2026-04-16 18:46:20,213 DEBUG BLACS.intermediate_device.mainloop: Finalising function
+2026-04-16 18:46:20,217 DEBUG BLACS.intermediate_device.mainloop: Waiting for next event
+2026-04-16 18:46:20,222 DEBUG BLACS.intermediate_device.mainloop: Processing event _program_device
+2026-04-16 18:46:20,226 DEBUG BLACS.intermediate_device.mainloop: Instructing worker main_worker to do job program_manual
+2026-04-16 18:46:20,227 DEBUG BLACS.intermediate_device_main_worker.worker: Got job request program_manual
+2026-04-16 18:46:20,227 DEBUG BLACS.intermediate_device_main_worker.worker: Starting job program_manual
+2026-04-16 18:46:20,227 DEBUG BLACS.intermediate_device_main_worker.worker: Job complete
+2026-04-16 18:46:20,227 DEBUG BLACS.intermediate_device_main_worker.worker: Waiting for next job request
+2026-04-16 18:46:20,230 DEBUG BLACS.intermediate_device.mainloop: Waiting for worker to acknowledge job request
+2026-04-16 18:46:20,231 DEBUG BLACS.intermediate_device.mainloop: Worker reported job started, waiting for completion
+2026-04-16 18:46:20,232 DEBUG BLACS.intermediate_device.mainloop: Job completed
+2026-04-16 18:46:20,232 DEBUG BLACS.intermediate_device.mainloop: returning worker results to function _program_device
+2026-04-16 18:46:20,234 DEBUG BLACS.intermediate_device.mainloop: Finalising function
+2026-04-16 18:46:20,238 DEBUG BLACS.intermediate_device.mainloop: Waiting for next event
+2026-04-16 18:46:23,937 INFO BLACS: destroy called
+2026-04-16 18:46:23,943 DEBUG BLACS.FrontPanelSettings: saving front panel for device:intermediate_device
+2026-04-16 18:46:23,943 DEBUG BLACS.FrontPanelSettings: saving front panel for device:pseudoclock
+2026-04-16 18:46:23,946 INFO BLACS: Shutting down workers
+2026-04-16 18:46:23,947 DEBUG BLACS.pseudoclock.mainloop: Processing event _shutdown_workers
+2026-04-16 18:46:23,947 DEBUG BLACS.intermediate_device.mainloop: Processing event _shutdown_workers
+2026-04-16 18:46:23,950 DEBUG BLACS.pseudoclock.mainloop: Instructing worker main_worker to do job shutdown
+2026-04-16 18:46:23,951 DEBUG BLACS.pseudoclock_main_worker.worker: Got job request shutdown
+2026-04-16 18:46:23,951 DEBUG BLACS.pseudoclock_main_worker.worker: Starting job shutdown
+2026-04-16 18:46:23,951 DEBUG BLACS.pseudoclock_main_worker.worker: Job complete
+2026-04-16 18:46:23,951 DEBUG BLACS.pseudoclock_main_worker.worker: Waiting for next job request
+2026-04-16 18:46:23,952 DEBUG BLACS.intermediate_device.mainloop: Instructing worker main_worker to do job shutdown
+2026-04-16 18:46:23,953 DEBUG BLACS.intermediate_device_main_worker.worker: Got job request shutdown
+2026-04-16 18:46:23,953 DEBUG BLACS.intermediate_device_main_worker.worker: Starting job shutdown
+2026-04-16 18:46:23,953 DEBUG BLACS.pseudoclock.mainloop: Waiting for worker to acknowledge job request
+2026-04-16 18:46:23,953 DEBUG BLACS.intermediate_device_main_worker.worker: Job complete
+2026-04-16 18:46:23,954 DEBUG BLACS.intermediate_device_main_worker.worker: Waiting for next job request
+2026-04-16 18:46:23,954 DEBUG BLACS.pseudoclock.mainloop: Worker reported job started, waiting for completion
+2026-04-16 18:46:23,955 DEBUG BLACS.pseudoclock.mainloop: Job completed
+2026-04-16 18:46:23,955 DEBUG BLACS.pseudoclock.mainloop: returning worker results to function _shutdown_workers
+2026-04-16 18:46:23,957 DEBUG BLACS.intermediate_device.mainloop: Waiting for worker to acknowledge job request
+2026-04-16 18:46:23,957 DEBUG BLACS.intermediate_device.mainloop: Worker reported job started, waiting for completion
+2026-04-16 18:46:23,958 DEBUG BLACS.intermediate_device.mainloop: Job completed
+2026-04-16 18:46:23,958 DEBUG BLACS.intermediate_device.mainloop: returning worker results to function _shutdown_workers
+2026-04-16 18:46:23,959 DEBUG BLACS.pseudoclock.mainloop: Finalising function
+2026-04-16 18:46:23,961 DEBUG BLACS.intermediate_device.mainloop: Finalising function
+2026-04-16 18:46:23,961 DEBUG BLACS.pseudoclock.mainloop: Waiting for next event
+2026-04-16 18:46:23,963 DEBUG BLACS.intermediate_device.mainloop: Waiting for next event
+2026-04-16 18:46:24,040 INFO BLACS: destroy called
+2026-04-16 18:46:24,046 INFO BLACS: finalise_quit called
+2026-04-16 18:46:24,047 INFO BLACS.intermediate_device: close_tab called
+2026-04-16 18:46:24,050 INFO BLACS.pseudoclock: close_tab called
+2026-04-16 18:46:24,053 DEBUG BLACS.intermediate_device.mainloop: Received quit signal
+2026-04-16 18:46:24,053 DEBUG BLACS.pseudoclock.mainloop: Received quit signal
+2026-04-16 18:46:24,054 INFO BLACS.pseudoclock.mainloop: Exiting
+2026-04-16 18:46:24,053 INFO BLACS.intermediate_device.mainloop: Exiting
+2026-04-16 18:46:24,141 INFO BLACS: destroy called
+2026-04-16 18:46:24,152 INFO BLACS: finalise_quit called
+2026-04-16 18:46:24,152 INFO BLACS: quitting

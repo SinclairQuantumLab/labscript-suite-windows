@@ -1,10 +1,17 @@
 # Quick Labscript installation in Windows with `uv`
 
-1. Make sure to back up and remove `%USERPROFILE%\labscript-suite\` folder, if exists, from the previous installation.
+1. Make sure to back up and remove all the files bekow from the previous installation:
+   - Root folder at `C:\Labscript-windows`
+   - Labscript profile folder at `%USERPROFILE%\labscript-suite\`
+   - Shortcut files in `%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs`:
+      - `BLACS - the labscript suite.lnk`
+      - `lyse - the labscript suite.lnk`
+      - `runmanager - the labscript suite.lnk`
+      - `runviewer - the labscript suite.lnk`
 
-2. Install [`uv`](https://docs.astral.sh/uv/) following [this link](https://docs.astral.sh/uv/getting-started/installation/) and close the `powershell` for the installation.
+3. Install [`uv`](https://docs.astral.sh/uv/) following [this link](https://docs.astral.sh/uv/getting-started/installation/) and close the `powershell` for the installation.
 
-3. Open `powershell` and `git clone` this repo in `C:\`. `C:\Labscript-windows\` folder will be downloaded.
+4. Open `powershell` and `git clone` this repo in `C:\`. `C:\Labscript-windows\` folder will be downloaded.
 
    ```powershell
    > cd C:\

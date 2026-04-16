@@ -14,15 +14,15 @@
 4. Open `powershell` and `git clone` this repo in `C:\`. `C:\Labscript-windows\` folder will be downloaded.
 
    ```powershell
-   > cd C:\
-   > git clone https://github.com/SinclairQuantumLab/Labscript-windows.git
+   cd C:\
+   git clone https://github.com/SinclairQuantumLab/Labscript-windows.git
     ```
 
 5. Go to the repo folder and run `uv sync`:
 
     ```powershell
-    > cd C:\Labscript-windows
-    > uv sync
+    cd C:\Labscript-windows
+    uv sync
     ```
     
     This will install `labscript-suite` and required packages.
@@ -30,7 +30,7 @@
 6. Run the below to create Labscript profile:
 
     ```powershell
-    > uv run labscript-profile-create -n imaq_lab -c
+    uv run labscript-profile-create -n imaq_lab -c
     ```
 
     See [this page](https://labscriptsuite.org/en/latest/installation/regular-pypi/) to find details on the `[OPTIONS]`.
@@ -38,7 +38,7 @@
 7. Run the below to create the shortcuts in Desktop:
 
     ```powershell
-    > uv run desktop-app install blacs lyse runmanager runviewer
+    uv run desktop-app install blacs lyse runmanager runviewer
     ```
 
 That's it!

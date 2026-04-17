@@ -64,19 +64,23 @@ The connection_table.py should be recompiled in `BLACS` ignore error when `BLACS
 
 ## One-shot setup script
 Copy & paste the below script to a Powershell terminal (innitial location doesn't matter) and all the steps above will be done.
+
 ```powershell
+$APPARATUS_NAME = "imaq_lab"
+
 cd $HOME
 ### 1. Install `labscript-suite` and create profile and Desktop shortcuts
 git clone https://github.com/SinclairQuantumLab/imaq-labscript-suite-windows.git labscript-suite
 cd labscript-suite
 uv sync
-uv run labscript-profile-create -n imaq_lab -c
+uv run labscript-profile-create -n $APPARATUS_NAME -c
 uv run desktop-app install blacs lyse runmanager runviewer
 
 ### 2. Apply IMAQ customization
 # PrawnBlaster & PrawnDO demo
-mv .\userlib\labscriptlib\imaq_lab\connection_table.py .\userlib\labscriptlib\imaq_lab\connection_table_dummy.py
-cp -r .\imaq-library\labscriptlib_prawn-demo\* userlib\labscriptlib\imaq_lab\
+mv ".\userlib\labscriptlib\$APPARATUS_NAME\connection_table.py" ".\userlib\labscriptlib\$APPARATUS_NAME\connection_table_dummy.py"
+cp -r .\imaq-library\labscriptlib_prawn-demo\* "userlib\labscriptlib\$APPARATUS_NAME\"
  
 ```
+
 Make sure to open `BLACS`, recompile and restart it, and open `BLACS` again after closing an error dialog that pops up.

@@ -24,7 +24,7 @@ def ConnectionTable():
     DigitalOut('do0', prawn_do.outputs, 'do0')
     DigitalOut('do1', prawn_do.outputs, 'do1')
     DigitalOut('do10', prawn_do.outputs, 'do10')
-    DigitalOut('d011', prawn_do.outputs, 'do11')
+    DigitalOut('do11', prawn_do.outputs, 'do11')
 
 if __name__ == '__main__':
     ConnectionTable()

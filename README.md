@@ -15,14 +15,14 @@ This repo contains `uv` project to seamlessly install `labscript-suite` and cust
 
 2. Install [`uv`](https://docs.astral.sh/uv/) following [this link](https://docs.astral.sh/uv/getting-started/installation/) and close the `powershell` for the installation.
 
-3. Open Powershell terminal and go to `$HOME` (the Powershell version of `%USERPROFILE%`). Then, `git clone` this repo:
+3. Open Powershell terminal and go to `$HOME` (the Powershell version of `%USERPROFILE%`). Then, `git clone` this repo **with the folder name `labscript-suite` (important)**:
 
     ```powershell
     cd $HOME
     git clone https://github.com/SinclairQuantumLab/imaq-labscript-suite-windows.git labscript-suite
     ```
 
-    `labscript-suite` folder should have been created.
+    `labscript-suite` folder should have been created through the command line above.
 
 
 4.  Go to the created folder and run `uv sync`:
